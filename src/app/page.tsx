@@ -27,13 +27,17 @@ export default function Home() {
           qualité du code.
         </motion.p>
         <div className="flex gap-4">
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/malek-sfeihi" 
+             target="_blank" 
+             rel="noopener noreferrer">
             <Github className="w-6 h-6 hover:text-blue-600 transition" />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/malek-sfeihi-b11a911b1/" 
+             target="_blank" 
+             rel="noopener noreferrer">
             <Linkedin className="w-6 h-6 hover:text-blue-600 transition" />
           </a>
-          <a href="mailto:ton.email@example.com">
+          <a href="mailto:maleksfeihi@gmail.com">
             <Mail className="w-6 h-6 hover:text-blue-600 transition" />
           </a>
         </div>
@@ -42,7 +46,7 @@ export default function Home() {
       {/* À propos */}
       <section className="max-w-5xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-12 items-center">
         <motion.img
-          src="/portrait.jpg" // Mets ta photo dans public/portrait.jpg
+          src="/MalekPicture.png" // Mets ta photo dans public/portrait.jpg
           alt="Photo de Malek"
           className="rounded-2xl shadow-lg object-cover w-full h-auto"
           initial={{ opacity: 0, x: -30 }}
@@ -69,7 +73,7 @@ export default function Home() {
             des projets ambitieux.
           </p>
           <a
-            href="/CV_Malek.pdf"
+            href="/SfeihiMalek.pdf"
             className="inline-block bg-blue-600 text-white px-5 py-3 rounded-lg hover:bg-blue-700 transition"
             download
           >
