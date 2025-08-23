@@ -83,7 +83,8 @@ export default function Home() {
       </section>
 
       {/* Projets */}
-      <section className="max-w-5xl mx-auto px-4 py-16">
+     
+     {/* <section className="max-w-5xl mx-auto px-4 py-16">
         <h2 className="text-3xl font-bold mb-10 text-center">Projets</h2>
         <div className="grid gap-8 md:grid-cols-2">
           {[
@@ -131,8 +132,7 @@ export default function Home() {
             </motion.div>
           ))}
         </div>
-      </section>
-
+      </section> */}
       {/* Contact */}
       <section className="bg-gray-100 py-16 text-center">
         <h2 className="text-3xl font-bold mb-4">Travaillons ensemble</h2>
